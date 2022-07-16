@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root {
+  /* Fonts */
+  --heading-font: 'Abril Fatface', cursive;
+  --body-font: 'Lato', sans-serif;
+  /* Colors */
+  --primary-color:#7D0707;
+  --secondary-color:#4843D5;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+strong {
+  font-weight: bold;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    transition-duration: 350ms;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  address{font-style: normal;}
+  small{font-size: inherit;}
+  a{text-decoration: none;}
+
+  /* Defaults */
+  body{font-size: 1.125rem;font-family: var(--body-font);overflow-x: hidden;font-weight: 300;}
+  h1{font-size: 3.75rem;}
+  h1 span{font-size: 0.75em;}
+  h2{font-size: 3.125rem;}
+  h3{font-size: 2.813rem;}
+  h1,h2,h3,h4,h5,h6{font-family: var(--heading-font);}

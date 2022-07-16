@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hart</title>
+    <link rel="stylesheet" href="css/resets.min.css">
+    <link rel="stylesheet" href="css/utilities.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="wow fadeInDown" data-wow-duration="2s">
+        <div class="container flex-row justify-content-spacebetween align-items-center">
+            <div class="main-logo flex-row justify-content-spacebetween align-items-center">
+                <figure><img src="images/brand-img.png" alt="php_comp_name"></figure>
+                <h2>Hart Pableo</h2>
+                <a href="javascript:;"></a>
+            </div>
+            <nav id="header-nav">
+                <div id="nav-header" class="flex-row justify-content-spacebetween align-items-center">
+                    <h4>Menu</h4>
+                    <div class="hamburger-close"></div>
+                </div>
+                <ul>
+                    <li class="current_page_item"><a href="javascript:;">Home</a></li>
+                    <li><a href="javascript:;">Work</a></li>
+                    <li><a href="javascript:;">Blog</a></li>
+                    <li class="hidden"><a href="javascript:;">Contact Me</a></li>
+                </ul>
+                <div class="header-cta">
+                    <a class="btn-primary" href="javascript:;">Contact Me</a>
+                </div>
+            </nav>
+            <div class="hamburger">
+                <div class="hamburger-line"></div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <main>
+
+        <!-- Showcase -->
+        <section id="showcase" class="flex-column justify-content-center align-items-center" data-parallax="scroll" data-image-src="images/showcase-img.jpg" data-naturalWidth="1920" data-naturalHeight="1030">
+            <div class="container">
+                <div class="slogan text-center wow bounceIn" data-wow-duration="1.5s">
+                    <h1>Building With Passion.</h1>
+                    <p class="res-fullwidth-md">I am a <strong>junior web developer</strong> with great passion towards building websites and software. I am continuously learning and honing my skills, and seeking for growth and improvement. I love building websites and landing pages for small businesses to medium-sized companies. So, if you are a business-owner looking to establish your online presence, or an employer looking to hire for your available developer position... you can reach me here!</p>
+                    <div class="showcase-btns flex-row justify-content-spacebetween align-items-center res-wrap">
+                        <a class="btn-primary" href="javascript:;">Message Me!</a>
+                        <a class="btn-primary" href="javascript:;">View/Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Showcase -->
+
+        <!-- Services -->
+        <section id="services">
+            <div class="container flex-row justify-content-spacebetween res-wrap text-center wow fadeInDown" data-wow-duration="2.2s">
+                <div class="card res-halfwidth-md res-fullwidth-sm">
+                    <figure><img class="object-fit-cover" src="images/code-icon.svg" alt="code"></figure>
+                    <h3>HTML, CSS, PHP, JS</h3>
+                    <p>I can build websites or covert website designs with pure code from scratch.</p>
+                </div>
+                <div class="card res-halfwidth-md res-fullwidth-sm">
+                    <figure><img class="object-fit-cover" src="images/wp-icon.svg" alt="wordpress"></figure>
+                    <h3>WordPress Development</h3>
+                    <p>I can build WordPress websites with custom-made themes and also with theme builders.</p>
+                </div>
+                <div class="card res-halfwidth-md res-fullwidth-sm">
+                    <figure><img class="object-fit-cover" src="images/mobile-icon.svg" alt="mobile phone"></figure>
+                    <h3>Responsive Layouts</h3>
+                    <p>I develop websites that fit or adjust to all screen sizes accordingly from desktop to mobile.</p>
+                </div>
+            </div>
+            <div class="container btn-container">
+                <a class="services-btn btn-primary" href="javascript:;">View My Works</a>
+            </div>
+        </section>
+        <!-- End Services -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-profile text-center">
+            <figure class="footer-img" data-tilt><img src="images/footer-img.png" alt="Hart Pableo"></figure>
+            <ul class="social-media flex-row justify-content-spacebetween align-items-center wrap">
+                <li>
+                    <figure><img src="images/fb-icon.svg" alt="facebook"></figure>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <figure><img src="images/linkedin-icon.svg" alt="linkedin"></figure>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <figure><img src="images/github-icon.svg" alt="github"></figure>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="container footer-form text-center">
+            <div class="footer-heading">
+                <h2>Let’s Connect!</h2>
+                <p>You can reach out to me using the form below.</p>
+            </div>
+            <form action="#" id="contact-form" class="wrap flex-row justify-content-spacebetween">
+                <input type="text" name="Name" placeholder="Name *" required>
+                <input type="email" name="Email Address" placeholder="Email Address *" required>
+                <textarea name="Message" placeholder="How can I help you? *" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="text-center copyright">
+            <div class="container">
+                <p>&copy; Copyright <small id="copyright-year"></small> <small class="res-collapse">&vert;</small> <strong>Hart Pableo - Junior Web Developer</strong></p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>
